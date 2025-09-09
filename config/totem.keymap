@@ -86,7 +86,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &kp Q       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &lt NAV     &kpTAB      &kp SPACE       &kp RET     &kp LSHFT   &lt SYM
+                                        &lt NAV     &kp TAB     &kp SPACE       &kp RET     &kp LSHFT   &lt SYM
                         >;
                 };
 
@@ -107,12 +107,12 @@ label= "NAVI"                              ;
 //                                     ┃           ┃    TAB    ┃    SPC    ┃   ┃    DEL    ┃     0     ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
-// ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
+// ╷           ╷            ╷            ╷           ╷            ╷          ╷    ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &bt BT_CLR  &kp UP      &kp EQUAL   &trans          &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
-                &sk LGUI    &sk LALT    &sk LCTL    &sk LSHFT   &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
-    &trans      &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp TAB     &kp LC(V)       &trans      &kp BSPC    &kp TAB     &trans      &kp RET     &trans
-                                        &trans      &trans      &trans          &mo ADJ     &kp KP_N0   &trans      
+                &kp ESC     &kp C_VOL_DN &kp C_MUTE  &kp C_VOL_UP &trans          &kp PG_UP   &kp INS     &kp HOME    &kp END     &kp DEL
+                &sk LGUI    &sk LALT     &sk LCTL    &sk LSHFT    &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
+    &trans      &kp LC(Z)   &kp LC(X)    &kp LC(C)   &kp TAB      &kp LC(V)       &trans      &kp BSPC    &kp TAB     &trans      &kp RET     &trans
+                                         &trans      &trans       &trans          &mo ADJ     &kp KP_N0   &trans      
                         >;
                 };
 
