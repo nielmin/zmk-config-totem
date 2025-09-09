@@ -86,7 +86,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp F       &kp P       &kp B           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &kp A       &kp R       &kp S       &kp T       &kp G           &kp M       &kp N       &kp E       &kp I       &kp O
     &kp Q       &kp Z       &kp X       &kp C       &kp D       &kp V           &kp K       &kp H       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                        &lt NAV     &kp TAB     &kp SPACE       &kp RET     &kp LSHFT   &lt SYM
+                                        &mo NAV     &kp TAB     &kp SPACE       &kp RET     &kp LSHFT   &mo SYM
                         >;
                 };
 
@@ -113,7 +113,7 @@ label= "NAVI"                              ;
                 &sk LGUI    &sk LALT     &sk LCTL    &sk LSHFT    &key_repeat     &kp PG_DN   &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT
     &trans      &kp LC(Z)   &kp LC(X)    &kp LC(C)   &kp TAB      &kp LC(V)       &trans      &kp BSPC    &kp TAB     &trans      &kp RET     &trans
                                          &trans      &trans       &trans          &mo ADJ     &kp KP_N0   &trans
-                                                        >;
+                        >;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
